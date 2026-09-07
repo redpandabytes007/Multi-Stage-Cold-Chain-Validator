@@ -3,7 +3,7 @@
 % It computes SET, HET, VOC trend, and Spoilage Risk Score (SRS)
 % from IoT sensor data uploaded by an ESP32.
 
-readChannelID = thingspeak_channel_id;
+readChannelID = 'thingspeak_channel_id';
 readAPIKey  = 'read_apikey_from_thingspeak'; 
 writeAPIKey = 'write_apikey_from_thingspeak'; 
 
