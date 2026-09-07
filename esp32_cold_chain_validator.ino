@@ -30,12 +30,12 @@
 #define LED_PIN 23
 #define BUZZER_PIN 22
 
-const char* ssid = "Android15";
-const char* pass = "qwertyuioppoiuytrewq";
+const char* ssid = "your_wifi_ssid";
+const char* pass = "wifi_password";
 
-String writeApiKey = "OP93579NP6JJIYEC";
-String readApiKey  = "OXJLZOYKI3TGA083";
-String channelID   = "3051991";
+String writeApiKey = "write_apikey_from_thingspeak_channel";
+String readApiKey  = "read_apikey_from_thingspeak_channel";
+String channelID   = "thingspeak_channel_id";
 const char* server = "api.thingspeak.com";
 
 OneWire oneWire(ONE_WIRE_BUS);
