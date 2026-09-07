@@ -1,5 +1,5 @@
 /*
-  ESP32 Cold Chain Validator Firmware
+  Cold Chain Validator Firmware for ESP32
 
   This code reads temperature, humidity, and gas sensor data
   and uploads it to the ThingSpeak cloud platform.
