@@ -165,7 +165,7 @@ void loop() {
   } else {
     digitalWrite(LED_PIN, LOW);
     digitalWrite(BUZZER_PIN, HIGH);
-    Serial.println("✅ Safe Condition. All parameters within limits.");
+    Serial.println("Safe Condition. All parameters within limits.");
   }
 
   delay(10000);
